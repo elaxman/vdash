@@ -33,5 +33,5 @@ app.get('/', routes.index);
 app.all('/api/events', api.events);
 app.all('/api/events/:eventId', api.event)
 
-app.listen(3000);
+app.listen(3001);
 console.log('Magic happens on port 3000...');
